@@ -1,8 +1,10 @@
-name: build-docker-image
+name: My cool Workflow
+
 on:
   push:
   pull_request:
   workflow_dispatch:
+  
 jobs:
   myfirstjob:
     name: First Job
